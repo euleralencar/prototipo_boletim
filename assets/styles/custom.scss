@@ -1,0 +1,59 @@
+/*-- scss:defaults --*/
+// $navbar-bg: #FFF !default;
+
+/*-- scss:rules --*/
+.bg-vb-success {
+  color: var(--bs-success);
+  background-color: rgba(var(--bs-success-rgb), 0.1);
+  border-color: rgba(var(--bs-success-rgb), 0.3);
+}
+
+:root {
+  --bg-vb-success-color: #05445E;
+  --bg-vb-success-rgba: 5, 68, 94;
+}
+
+.bg-vb-success {
+  color: var(--bg-vb-success-color);
+  background-color: rgba(var(--bg-vb-success-rgba), 0.1);
+  border-color: rgba(var(--bg-vb-success-rgba), 0.3);
+}
+
+:root {
+  --bg-vb-info-color: #189AB4;
+  --bg-vb-info-rgba: 24, 154, 180;
+}
+
+.bg-vb-info {
+  color: var(--bg-vb-info-color);
+  background-color: rgba(var(--bg-vb-info-rgba), 0.1);
+  border-color: rgba(var(--bg-vb-info-rgba), 0.3);
+}
+
+:root {
+  --bg-vb-warning-color: #75E6DA;
+  --bg-vb-warning-rgba: 117, 230, 218;
+}
+
+.bg-vb-warning {
+  color: var(--bg-vb-warning-color);
+  background-color: rgba(var(--bg-vb-warning-rgba), 0.1);
+  border-color: rgba(var(--bg-vb-warning-rgba), 0.3);
+}
+
+:root {
+  --bg-vb-error-color: #D4F1F4;
+  --bg-vb-error-rgba: 212, 241, 244;
+}
+
+.bg-vb-error {
+  color: var(--bg-vb-error-color);
+  background-color: rgba(var(--bg-vb-error-rgba), 0.1);
+  border-color: rgba(var(--bg-vb-error-rgba), 0.3);
+}
+
+
+.card {
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-bg: var(--bs-body-bg);
+}
